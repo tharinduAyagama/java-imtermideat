@@ -9,10 +9,10 @@ class mainMethod{
             mainList.add(x);
         }
 
-        String[] shouldDeleteArray = {"amal" , "kamal"};
-        List<String> shouldDeleteList = new ArrayList<String>();
-        for(String y : shouldDeleteList){
-            shouldDeleteList.add(y);
+        String[] deleteArray = {"amal" , "kamal"};
+        List<String> deleteList = new ArrayList<String>();
+        for(String y : deleteArray){
+            deleteList.add(y);
         }
 
 
@@ -21,7 +21,7 @@ class mainMethod{
         }
         System.out.println();
 
-        listEditing(mainList , shouldDeleteList);
+        listEditing(mainList , deleteList);
 
         for(String a : mainList){
             System.out.printf("%s " , a);
