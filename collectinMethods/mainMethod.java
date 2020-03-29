@@ -7,16 +7,19 @@ class mainMethod{
         System.out.printf("The main list: ");
         listPrint(L);
 
+        //reverse method
         Collections.reverse(L);
         System.out.printf("after reverse the list: ");
         listPrint(L);
 
+        //copy method
         Character[] cArray = new Character[4];
         List<Character> copyList = Arrays.asList(cArray);
         Collections.copy(copyList, L);
         System.out.printf("this is the copied list: ");
         listPrint(copyList);
 
+        //fill method
         Collections.fill(L, 'R');
         System.out.printf("after filling: ");
         listPrint(L);
